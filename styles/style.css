@@ -35,7 +35,7 @@
 .header__logo {
   display: block;
   justify-self: center;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .header__logo-image {
@@ -163,7 +163,6 @@
   display: block;
   width: 100%;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .card {
@@ -212,8 +211,8 @@
   margin: 30px 0 0 40px;
   font-size: 20px;
   font-weight: normal;
+  text-decoration: none;
   border-bottom: 1px solid #000;
-  cursor: pointer;
 }
 
 .about {
@@ -259,4 +258,54 @@
 
 .about__text:first-of-type {
   margin-bottom: 25px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 180px 50px 90px;
+}
+
+.footer__menu {
+  justify-self: center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.footer__menu-list {
+  text-align: center;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.footer__menu-link_active {
+  border-bottom: none;
+}
+
+.footer__social-list {
+  justify-self: end;
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-link {
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 50px;
+  height: 50px;
 }

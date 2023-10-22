@@ -1,3 +1,5 @@
+/* Шапка сайта */
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -59,6 +61,8 @@
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
+
+/* Входная секция */
 
 .cover {
   position: relative;
@@ -136,6 +140,8 @@
   border: 1px solid #fff;
   cursor: pointer;
 }
+
+/* Секция с карточками */
 
 .lots {
   padding: 180px 50px 182px;
@@ -215,6 +221,8 @@
   border-bottom: 1px solid #000;
 }
 
+/* Секция об аукционе */
+
 .about {
   display: grid;
   grid-template-columns: 430px 1fr;
@@ -259,6 +267,8 @@
 .about__text:first-of-type {
   margin-bottom: 25px;
 }
+
+/* Подвал сайта */
 
 .footer {
   display: grid;

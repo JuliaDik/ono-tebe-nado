@@ -18,4 +18,4 @@
 <h2>Ссылка на макет</h2>
 <a href="https://www.figma.com/file/86V7ulT3VX5l4nG2wq9VkQ/2-Оно-тебе-надо-Copy?fuid=997588057117138482">Открыть</a>
 <h2>Ссылка на проект</h2>
-<a href="https://juliadik.github.io/ono-tebe-nado-main/index.html">Открыть</a>
+<a href="https://juliadik.github.io/ono-tebe-nado/index.html">Открыть</a>
